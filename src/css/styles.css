@@ -12,9 +12,28 @@ body {
   line-height: 1.5;
 }
 
+h2 {
+  margin-left: 15px;
+}
+
 #search-box {
   font: inherit;
   padding: 8px;
   max-width: 320px;
   margin-bottom: 16px;
+}
+
+.country-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.country-logo-thumb {
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  font-weight: 700;
 }
